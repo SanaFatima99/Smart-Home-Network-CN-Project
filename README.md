@@ -249,7 +249,6 @@ Applied on Switch0, Switch2, and HOMEROUTER.
 ```
 Smart-Home-Network-CN-Project/
 ├── Smart_Home_Automation.pkt       ← Cisco Packet Tracer topology
-└── CN_PROJECT_DOCUMENTATION.docx  ← Complete project report
 ```
 
 ---
