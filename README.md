@@ -1,5 +1,4 @@
-
-# Smart Home Automation System
+# 🏠 Smart Home Automation System
 ### Computer Networks Project — Cisco Packet Tracer
 
 ![Network](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue)
@@ -9,14 +8,14 @@
 
 ---
 
-## Project Overview
+## 📋 Project Overview
 A fully functional Smart Home Network simulated in Cisco Packet Tracer, 
 implementing enterprise-grade networking features including VLAN segmentation, 
 IoT automation, wireless networks, security hardening, and remote access via NAT.
 
 ---
 
-## Repository Contents
+## 🗂️ Repository Contents
 | File | Description |
 |------|-------------|
 | `.pkt` | Cisco Packet Tracer topology file |
@@ -24,7 +23,7 @@ IoT automation, wireless networks, security hardening, and remote access via NAT
 
 ---
 
-## Network Architecture
+## 🌐 Network Architecture
 - **Core Device:** Cisco Catalyst 3560-24P Multilayer Switch
 - **Edge Router:** Cisco 2811 (HOMEROUTER)
 - **Servers:** Server0 (DHCP/DNS/IoT/Syslog) + Web Server
@@ -32,7 +31,7 @@ IoT automation, wireless networks, security hardening, and remote access via NAT
 
 ---
 
-## VLAN Design
+## 📡 VLAN Design
 | VLAN | Name | Subnet | Purpose |
 |------|------|--------|---------|
 | 10 | OFFICE_PCs | 192.168.2.0/24 | Home admin computers |
@@ -42,16 +41,16 @@ IoT automation, wireless networks, security hardening, and remote access via NAT
 
 ---
 
-## IoT Automation — 13 Rules
-- **Security:** Motion detection → lights, door unlock, siren
-- **Climate:** Auto fan/AC based on temperature
-- **Emergency:** Smoke detection → siren, window open, door unlock
-- **Humidity:** Auto humidifier control
-- **Ventilation:** Auto window based on temperature
+## 🤖 IoT Automation — 13 Rules
+- 🔒 **Security:** Motion detection → lights, door unlock, siren
+- 🌡️ **Climate:** Auto fan/AC based on temperature
+- 🚨 **Emergency:** Smoke detection → siren, window open, door unlock
+- 💧 **Humidity:** Auto humidifier control
+- 🪟 **Ventilation:** Auto window based on temperature
 
 ---
 
-## Security Features
+## 🔒 Security Features
 - SSH v2 on all network devices
 - Port Security (shutdown on violation)
 - ACL-based Guest Network Isolation
@@ -61,7 +60,7 @@ IoT automation, wireless networks, security hardening, and remote access via NAT
 
 ---
 
-## QoS Policy — SMART_HOME_QOS
+## ⚡ QoS Policy — SMART_HOME_QOS
 | Traffic Class | Priority |
 |--------------|----------|
 | IOT_TRAFFIC | 50% Strict Priority |
